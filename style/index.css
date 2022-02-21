@@ -1,0 +1,26 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 85%;
+    height: 80%;
+    background-color: black;
+    box-shadow: 4px 4px 12px black;
+    padding: 15px;
+}
+
+.div {
+    display: block;
+}
+
+.grid-element {
+    overflow: hidden;
+    position: relative;
+}
+
+.first {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2
+}
